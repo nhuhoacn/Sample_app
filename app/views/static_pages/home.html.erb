@@ -1,2 +1,11 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+  <h2>
+    <%= t ".home_page_for" %>
+    <%= link_to t(".rails_href"), Settings.home.rails_help, target: :_blank %>
+    <%= t ".sample_app" %>
+  </h2>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("preview.jpg", alt: "Rails logo",id: "logo_rails"),
+   Settings.home.ruby_on_rails, target: :_blank %> %>

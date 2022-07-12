@@ -1,0 +1,8 @@
+<% provide(:title, t(".contact")) %>
+<h1><%= t ".contact" %></h1>
+<p>
+  <%= t ".the" %>
+  <%= link_to t(".rails_href"), Settings.contact.contact_page, target: :_blank %>
+  <%= t ".contact_content" %>
+  <%= link_to t(".contact_page"), Settings.contact.contact_page, target: :_blank %>
+</p>

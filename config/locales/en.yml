@@ -1,33 +1,56 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
+  helper:
+    base_title: "Program teach how to using Rails"
+  static_pages:
+    home:
+      title: "Sample App"
+      home_title: "Home"
+      home_page_for: "This is main page of"
+      rails_href: "Ruby on Rails Tutorial"
+      sign_up: "Sign up now!"
+      welcome: "Welcome to Sample App"
+      sample_app: "sample application."
+    about:
+      rails_href: "Ruby on Rails Tutorial"
+      about_title: "About"
+      part_of_the: ", part of the"
+      family_tutorials: "family of  tutorials, is a"
+      book: "book"
+      and: "and"
+      the: "The"
+      creencast_series: "creencast series"
+      teach: "to teach web development with"
+      about: "This is the sample app for the tutorial."
+    help:
+      help_title: "Help"
+      help_page: "Rails Tutorial Help page"
+      main_page_first: "Get help on the Ruby on Rails Tutorial at the"
+      main_page_last: ". To get help on this sample app, see the"
+      rails_book: "Ruby on Rails Tutorial book"
+    contact:
+      rails_href: "Ruby on Rails Tutorial"
+      contact: "Contact"
+      the: "The"
+      contact_content : " contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page."
+  users:
+    new:
+        new_title: "Sign up"
+        new_content: "This will be a signup page for new users."
+  layouts:
+    header:
+      home_title: "Home"
+      title: "Sample App"
+      home: "Main page"
+      help: "Help"
+      login: "Login"
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      rails_href: "Ruby on Rails Tutorial"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "The"
+      by: "by"

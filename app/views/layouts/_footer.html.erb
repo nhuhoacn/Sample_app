@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t ".the" %>
+    <%= link_to t(".rails_href"), Settings.footer.rails_href, target: :_blank %>
+    <%= t ".by" %>
+    <%= link_to "Michael Hartl" , Settings.footer. michael_hartl, target: :_blank %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.footer.new, target: :_blank %></li>
+    </ul>
+  </nav>
+</footer>

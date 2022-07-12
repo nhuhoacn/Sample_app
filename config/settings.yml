@@ -1,0 +1,18 @@
+footer:
+  rails_href: "https://www.railstutorial.org/"
+  michael_hartl: "https://www.michaelhartl.com/"
+  new: "https://news.railstutorial.org/"
+about:
+  rails_href: "https://www.railstutorial.org/"
+  learn_enough: "https://www.learnenough.com/"
+  book: "https://www.learnenough.com/"
+  creencast_series: "https://screencasts.railstutorial.org/"
+  ruby_on_rails: "https://rubyonrails.org/"
+contact:
+  contact_page: "https://www.railstutorial.org/contact"
+help:
+  rails_help: "http://www.railstutorial.org/help"
+  rails_book: "http://www.railstutorial.org/book"
+home:
+  rails_help: "https://www.railstutorial.org/"
+  ruby_on_rails: "https://rubyonrails.org/"

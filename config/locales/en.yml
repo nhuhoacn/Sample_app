@@ -1,5 +1,4 @@
 en:
-  hello: "Hello world"
   helper:
     base_title: "Program teach how to using Rails"
   static_pages:
@@ -38,7 +37,18 @@ en:
   users:
     new:
         new_title: "Sign up"
-        new_content: "This will be a signup page for new users."
+        new_content: "Create my account"
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
+        create: "Create my account"
+    show:
+      user_not_found: "Account not found, please register!"
+    create:
+      users_success: "Welcome to the Sample App!"
+      users_unsuccess: "Registration failed"
+
   layouts:
     header:
       home_title: "Home"
@@ -55,3 +65,9 @@ en:
       news: "News"
       the: "The"
       by: "by"
+      vietnam: "Vietnamese"
+      english: "English"
+  shared:
+    error_messages:
+      form_contain: "The form contains"
+      error: "error"

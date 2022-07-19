@@ -1,0 +1,55 @@
+vi:
+  helper:
+    base_title: "Ứng dụng hướng dẫn Ruby On Rails"
+  static_pages:
+    home:
+      title: "Sample App"
+      home_title: "Trang chủ"
+      home_page_for: "Đây là trang chủ của"
+      rails_href: "Hướng dẫn Ruby on Rails"
+      sign_up: "Đăng ký ngay"
+      welcome: "Chào mừng đến với Sample App"
+      sample_app: "ứng dụng mẫu."
+    about:
+      rails_href: "Hướng dẫn Ruby on Rails"
+      about_title: "Về chúng tôi"
+      part_of_the: ", một phần của"
+      family_tutorials: "gia đình hướng dẫn, là một"
+      book: "sách"
+      and: "và"
+      the: ""
+      creencast_series: "các video"
+      teach: "để dạy phát triển wed với"
+      about: "Đây là ứng dụng mẫu cho hướng dẫn."
+    help:
+      help_title: "Trợ giúp"
+      help_page: "trang hướng dẫn Rails"
+      main_page_first: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      main_page_last: ". Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      rails_book: "sách Hướng dẫn Ruby on Rails"
+    contact:
+      rails_href: "Hướng dẫn Ruby on Rails"
+      contact: "Liên hệ"
+      the: ""
+      contact_content: "liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "trang hướng dẫn."
+  users:
+    new:
+      new_title: "Đăng ký"
+      new_content: "Đây sẽ là trang đăng ký cho người dùng mới."
+  layouts:
+    header:
+      home_title: "Trang chủ"
+      title: "Sample App"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    application:
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
+    footer:
+      rails_href: "Hướng dẫn Ruby on Rails"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      the: ""
+      by: "được phát triển bởi"

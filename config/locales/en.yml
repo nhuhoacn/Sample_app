@@ -48,14 +48,18 @@ en:
     create:
       users_success: "Welcome to the Sample App!"
       users_unsuccess: "Registration failed"
-
   layouts:
     header:
       home_title: "Home"
       title: "Sample App"
       home: "Main page"
       help: "Help"
-      login: "Login"
+      users : "users"
+      profile: "Profile"
+      settings: "Settings"
+      log_in: "Log in"
+      log_out: "Log out"
+      account: "Account"
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
     footer:
@@ -67,6 +71,20 @@ en:
       by: "by"
       vietnam: "Vietnamese"
       english: "English"
+  sessions:
+    create:
+      sessions_create: "Sessions#create"
+      content: "Find me in app/views/sessions/create.html.erb"
+      invalid_email_password_combination: "Invalid email/password combination"
+    destroy:
+      sessions_destroy: "Sessions#destroy"
+      content: "Find me in app/views/sessions/destroy.html.erb"
+    new:
+      log_in: "Log in"
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
   shared:
     error_messages:
       form_contain: "The form contains"

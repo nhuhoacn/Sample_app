@@ -63,7 +63,7 @@ p {
 
   &:hover {
     color: $white;
-   	text-decoration: none;
+    text-decoration: none;
   }
 }
 
@@ -99,6 +99,7 @@ footer {
       margin-left: 15px;
     }
   }
+
   #change_lag {
     text-align: center;
   }
@@ -155,7 +156,10 @@ aside {
 }
 
 /* forms */
-input, textarea, select, .uneditable-input {
+input,
+textarea,
+select,
+.uneditable-input {
   border: 1px solid $medium_gray;
   width: 100%;
   margin-bottom: 15px;
@@ -170,6 +174,7 @@ input {
 /* forms */
 #error_explanation {
   color: $red;
+
   ul {
     color: $red;
     margin: 0 0 30px 0;
@@ -178,8 +183,24 @@ input {
 
 .field_with_errors {
   @extend .has-error !optional;
+
   .form-control {
     color: $red;
     // $state-danger-text;
   }
+}
+
+.checkbox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+
+#session_remember_me {
+  margin-left: 0;
+  width: auto;
 }

@@ -76,6 +76,7 @@ en:
       sessions_create: "Sessions#create"
       content: "Find me in app/views/sessions/create.html.erb"
       invalid_email_password_combination: "Invalid email/password combination"
+      user_not_found: "Account not found, please register!"
     destroy:
       sessions_destroy: "Sessions#destroy"
       content: "Find me in app/views/sessions/destroy.html.erb"
@@ -85,6 +86,7 @@ en:
       password: "Password"
       new_user: "New user?"
       sign_up: "Sign up now!"
+      remember_me: "Remember me on this computer"
   shared:
     error_messages:
       form_contain: "The form contains"

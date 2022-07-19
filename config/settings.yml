@@ -16,3 +16,8 @@ help:
 home:
   rails_help: "https://www.railstutorial.org/"
   ruby_on_rails: "https://rubyonrails.org/"
+user:
+  email_length: !ruby/range 20..255
+  name_max: 10
+  pass_min: 6
+  valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

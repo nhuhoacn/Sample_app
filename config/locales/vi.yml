@@ -22,6 +22,7 @@ vi:
       teach: "để dạy phát triển wed với"
       about: "Đây là ứng dụng mẫu cho hướng dẫn."
     help:
+      rails_href: "Hướng dẫn Ruby on Rails"
       help_title: "Trợ giúp"
       help_page: "trang hướng dẫn Rails"
       main_page_first: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"

@@ -37,7 +37,17 @@ vi:
   users:
     new:
       new_title: "Đăng ký"
-      new_content: "Đây sẽ là trang đăng ký cho người dùng mới."
+      new_content: "Tạo tài khoản"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      create: "Tạo tài khoản"
+    show:
+      user_not_found: "Không tìm thấy tài khoản, hãy đăng ký tài khoản!"
+    create:
+      users_success: "Chào mừng tới Sample App!"
+      users_unsuccess: "Đăng ký không thành công"
   layouts:
     header:
       home_title: "Trang chủ"
@@ -54,3 +64,9 @@ vi:
       news: "Tin tức"
       the: ""
       by: "được phát triển bởi"
+      vietnam: "Tiếng việt"
+      english: "Tiếng anh"
+  shared:
+    error_messages:
+      form_contain: "Thông tin bạn điền có "
+      error: "lỗi"

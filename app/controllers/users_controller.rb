@@ -14,6 +14,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
+      log_in @user
       flash[:success] = t ".users_success"
       redirect_to @user
     else
@@ -22,8 +23,9 @@ class UsersController < ApplicationController
     end
   end
 
-  private
+  def destroy; end
 
+  private
   def user_params
     params.require(:user).permit User::USER_ATTRIBUTES
   end

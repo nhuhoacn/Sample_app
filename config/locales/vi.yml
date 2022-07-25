@@ -54,7 +54,12 @@ vi:
       title: "Sample App"
       home: "Trang chủ"
       help: "Trợ giúp"
-      login: "Đăng nhập"
+      users : "Người dùng"
+      profile: "Thông tin cá nhân"
+      settings: "Cài đặt"
+      log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
+      account: "Tài khoản"
     application:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby On Rails"
     footer:
@@ -66,6 +71,20 @@ vi:
       by: "được phát triển bởi"
       vietnam: "Tiếng việt"
       english: "Tiếng anh"
+  sessions:
+    create:
+      sessions_create: "Sessions#create"
+      content: "Tìm hiểu tại app/views/sessions/create.html.erb"
+      invalid_email_password_combination: "Email và password không khớp"
+    destroy:
+      sessions_destroy: "Sessions#destroy"
+      content: "Tìm hiểu tại app/views/sessions/destroy.html.erb"
+    new:
+      log_in: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Bạn chưa có tài khoản?"
+      sign_up: "Đăng ký ngay!"
   shared:
     error_messages:
       form_contain: "Thông tin bạn điền có "

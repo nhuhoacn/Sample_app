@@ -1,4 +1,7 @@
 vi:
+  controllers:
+    users_success: "Chào mừng tới Sample App!"
+    users_unsuccess: "Đăng ký không thành công"
   helper:
     base_title: "Ứng dụng hướng dẫn Ruby On Rails"
   static_pages:
@@ -48,6 +51,7 @@ vi:
     create:
       users_success: "Chào mừng tới Sample App!"
       users_unsuccess: "Đăng ký không thành công"
+      invalid_email_password_combination: "email và password không khớp"
   layouts:
     header:
       home_title: "Trang chủ"
@@ -76,6 +80,7 @@ vi:
       sessions_create: "Sessions#create"
       content: "Tìm hiểu tại app/views/sessions/create.html.erb"
       invalid_email_password_combination: "Email và password không khớp"
+      user_not_found: "Không tìm thấy tài khoản, hãy đăng ký tài khoản!"
     destroy:
       sessions_destroy: "Sessions#destroy"
       content: "Tìm hiểu tại app/views/sessions/destroy.html.erb"
@@ -85,6 +90,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Bạn chưa có tài khoản?"
       sign_up: "Đăng ký ngay!"
+      remember_me: "Ghi nhớ đăng nhập"
   shared:
     error_messages:
       form_contain: "Thông tin bạn điền có "

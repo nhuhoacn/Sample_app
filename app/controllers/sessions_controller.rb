@@ -4,10 +4,10 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if user&.authenticate params[:session][:password]
-      log_in user
-      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-      redirect_to user
+    if @user&.authenticate params[:session][:password]
+      log_in @user
+      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
+      redirect_back_or @user
     else
       flash.now[:danger] = t ".invalid_email_password_combination"
       render :new
@@ -16,14 +16,14 @@ class SessionsController < ApplicationController
 
   def destroy
     log_out if logged_in?
-    redirect_to root_url
+    redirect_to root_path
   end
 
   def find_by_email
-    user = User.find_by email: params[:session][:email].downcase
+    @user = User.find_by email: params[:session][:email].downcase
     return if @user
 
     flash[:danger] = t ".user_not_found"
-    redirect_to signup_url
+    redirect_to signup_path
   end
 end

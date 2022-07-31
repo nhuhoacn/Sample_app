@@ -38,23 +38,43 @@ en:
     new:
         new_title: "Sign up"
         new_content: "Create my account"
-        name: "Name"
-        email: "Email"
-        password: "Password"
-        password_confirmation: "Confirmation"
         create: "Create my account"
     show:
       user_not_found: "Account not found, please register!"
     create:
       users_success: "Welcome to the Sample App!"
       users_unsuccess: "Registration failed"
+    edit:
+      edit_title: "Edit user"
+      save: "Save changes"
+      edit_content : "Update your profile"
+      change: "Change"
+      danger: "Please log in."
+      incorrect_user: "Incorrect user"
+    index:
+      index_title: "All users"
+    update:
+      update_user: "Profile updated"
+      update_false: "Update failed"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+    destroy:
+      user_deleted: "User deleted"
+      user.delete_fail: "User delete fail"
+      incorrect_admin: "Incorrect admin"
+    user:
+      delete: "delete"
+      comfirm : "You sure?"
   layouts:
     header:
       home_title: "Home"
       title: "Sample App"
       home: "Main page"
       help: "Help"
-      users : "users"
+      users : "Users"
       profile: "Profile"
       settings: "Settings"
       log_in: "Log in"

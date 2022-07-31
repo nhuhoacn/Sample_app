@@ -41,10 +41,6 @@ vi:
     new:
       new_title: "Đăng ký"
       new_content: "Tạo tài khoản"
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      password_confirmation: "Nhập lại mật khẩu"
       create: "Tạo tài khoản"
     show:
       user_not_found: "Không tìm thấy tài khoản, hãy đăng ký tài khoản!"
@@ -52,6 +48,30 @@ vi:
       users_success: "Chào mừng tới Sample App!"
       users_unsuccess: "Đăng ký không thành công"
       invalid_email_password_combination: "email và password không khớp"
+    edit:
+      edit_title: "Chỉnh sửa thông tin"
+      save: "Lưu thay đổi"
+      edit_content: "Chỉnh sửa thông tin"
+      change: "Thay đổi"
+      danger: "Hãy đăng nhập"
+      incorrect_user: "Bạn không thể sửa thông tin của người khác"
+    index:
+      index_title: "Tất cả người dùng"
+    update:
+      update_user: "Thông tin đã được thay đổi"
+      update_false: "Cập nhật thông tin thất bại"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+    destroy:
+      deleted: "Đã xóa người dùng"
+      user.delete_fail: "Xóa người dùng thất bại"
+      incorrect_admin: "Bạn không phải là admin"
+    user:
+      delete: "xóa"
+      comfirm: "Bạn chắc chắn muốn xóa ?"
   layouts:
     header:
       home_title: "Trang chủ"
@@ -60,7 +80,7 @@ vi:
       help: "Trợ giúp"
       users : "Người dùng"
       profile: "Thông tin cá nhân"
-      settings: "Cài đặt"
+      settings: "Chỉnh sửa thông tin"
       log_in: "Đăng nhập"
       log_out: "Đăng xuất"
       account: "Tài khoản"

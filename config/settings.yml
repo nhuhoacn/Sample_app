@@ -16,8 +16,14 @@ help:
 home:
   rails_help: "https://www.railstutorial.org/"
   ruby_on_rails: "https://rubyonrails.org/"
+edit:
+  edit_user: "https://gravatar.com/emails"
 user:
   email_length: !ruby/range 20..255
-  name_max: 10
+  name_max: 50
   pass_min: 6
   valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  page_item: 50
+  pagy_page: 20
+helpers:
+  users_size: 80

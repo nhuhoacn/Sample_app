@@ -48,6 +48,7 @@ vi:
       users_success: "Chào mừng tới Sample App!"
       users_unsuccess: "Đăng ký không thành công"
       invalid_email_password_combination: "email và password không khớp"
+      mail_notice: "Hãy kiểm tra mail để  hoàn tất đăng ký"
     edit:
       edit_title: "Chỉnh sửa thông tin"
       save: "Lưu thay đổi"
@@ -101,6 +102,7 @@ vi:
       content: "Tìm hiểu tại app/views/sessions/create.html.erb"
       invalid_email_password_combination: "Email và password không khớp"
       user_not_found: "Không tìm thấy tài khoản, hãy đăng ký tài khoản!"
+      account_not_activated: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để biết liên kết kích hoạt"
     destroy:
       sessions_destroy: "Sessions#destroy"
       content: "Tìm hiểu tại app/views/sessions/destroy.html.erb"
@@ -115,3 +117,13 @@ vi:
     error_messages:
       form_contain: "Thông tin bạn điền có "
       error: "lỗi"
+  account_activations:
+    edit:
+      user_success: "Tài khoản đã được kích hoạt"
+      user_unsuccess: "Kích họat không hợp lệ"
+  user_mailer:
+    account_activation:
+      account_activation: "Kích hoạt tài khoản"
+      welcome_to: "Chào mừng bạn đến với Sample App, click vào link bên dưới để kích hoạt tài khoản"
+      activate: "Kích hoạt"
+      hi: "Chào"

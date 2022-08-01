@@ -44,6 +44,7 @@ en:
     create:
       users_success: "Welcome to the Sample App!"
       users_unsuccess: "Registration failed"
+      mail_notice: "Please check your email to complete the registration"
     edit:
       edit_title: "Edit user"
       save: "Save changes"
@@ -97,6 +98,7 @@ en:
       content: "Find me in app/views/sessions/create.html.erb"
       invalid_email_password_combination: "Invalid email/password combination"
       user_not_found: "Account not found, please register!"
+      account_not_activated: "Account not activated. Check your email for the activation link."
     destroy:
       sessions_destroy: "Sessions#destroy"
       content: "Find me in app/views/sessions/destroy.html.erb"
@@ -111,3 +113,13 @@ en:
     error_messages:
       form_contain: "The form contains"
       error: "error"
+  account_activation:
+    edit:
+      user_success: "Account activated"
+      user_unsuccess: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      account_activation: "Account activation"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      hi: "Hi"

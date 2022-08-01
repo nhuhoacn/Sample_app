@@ -27,3 +27,5 @@ user:
   pagy_page: 20
 helpers:
   users_size: 80
+password_reset:
+  expired: 2

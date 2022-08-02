@@ -19,7 +19,7 @@ home:
 edit:
   edit_user: "https://gravatar.com/emails"
 user:
-  email_length: !ruby/range 20..255
+  email_length: !ruby/range 6..255
   name_max: 50
   pass_min: 6
   valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

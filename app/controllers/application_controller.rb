@@ -16,7 +16,16 @@ class ApplicationController < ActionController::Base
   def logged_in_user
     return if logged_in?
 
+    store_location
     flash[:danger] = t ".not_log_in"
     redirect_to login_path
+  end
+
+  def find_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t ".user_not_found"
+    redirect_to signup_path
   end
 end

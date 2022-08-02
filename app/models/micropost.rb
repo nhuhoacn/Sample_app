@@ -3,12 +3,13 @@ class Micropost < ApplicationRecord
   belongs_to :user
   has_one_attached :image
   validates :content, presence: true,
-    length: {maximum: Settings.micropost.content_max}
+            length: {maximum: Settings.micropost.content_max}
   validates :image, content_type: {in: Settings.micropost.image_path,
-                                message: :wrong_format},
-                                size: {less_than: Settings.micropost.image_size.megabytes,
-                                         message: :too_big}
+                                   message: :wrong_format},
+            size: {less_than: Settings.micropost.image_size.megabytes,
+                   message: :too_big}
   scope :newest, ->{order(created_at: :desc)}
+  scope :by_user_ids, ->(user_ids){where user_id: user_ids}
 
   delegate :name, to: :user, prefix: :user, allow_nil: true
 

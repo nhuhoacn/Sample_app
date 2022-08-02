@@ -38,3 +38,5 @@ micropost:
   image_size: 5
 user_info:
   size: 50
+show_follow:
+  user.size: 30

@@ -113,6 +113,7 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       sign_up: "Đăng ký ngay!"
       remember_me: "Ghi nhớ đăng nhập"
+      forgot_password: "Quên mật khẩu"
   shared:
     error_messages:
       form_contain: "Thông tin bạn điền có "
@@ -127,3 +128,32 @@ vi:
       welcome_to: "Chào mừng bạn đến với Sample App, click vào link bên dưới để kích hoạt tài khoản"
       activate: "Kích hoạt"
       hi: "Chào"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      click: "Để đặt lại mật khẩu, hãy nhấn vào link bên dưới"
+      link: "Đặt lại mật khẩu"
+      pass_reset_content: "Liên kết này sẽ hết hạn trong hai giờ.
+        Nếu bạn không yêu cầu mật khẩu của mình được đặt lại,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi"
+  password_resets:
+    create:
+      not_found: "Không tìm thấy tài khoản"
+      send_email: "Kiểm tra email để đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy email"
+    update:
+      empty: "Mật khẩu không được để trống"
+      reset_pass: "Mật khẩu đã được đặt lại."
+      not_reset_pass: "Không thể đặt lại mật khẩu"
+      exprired: ""
+    edit:
+      not_found: "Không tìm thấy tài khoản"
+      edit_pass_title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      submit: "Cập nhật lại mật khẩu"
+      expired: "Hết thời gian đặt lại mật khẩu"
+      alert_user: "Tài khoản chưa được kích hoạt hoặc đã hết thời gian đặt lại mật khẩu"
+    new:
+      new_pass_title: "Quên mật khẩu"
+      email: "email"
+      submit: "Tạo mật khẩu mới"

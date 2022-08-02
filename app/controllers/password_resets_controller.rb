@@ -5,10 +5,10 @@ class PasswordResetsController < ApplicationController
   def new; end
 
   def create
-      @user.create_reset_digest
-      @user.send_password_reset_email
-      flash[:info] = t ".send_email"
-      redirect_to root_url
+    @user.create_reset_digest
+    @user.send_password_reset_email
+    flash[:info] = t ".send_email"
+    redirect_to root_url
   end
 
   def edit; end

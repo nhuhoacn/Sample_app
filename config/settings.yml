@@ -29,3 +29,12 @@ helpers:
   users_size: 80
 password_reset:
   expired: 2
+micropost:
+  content_max: 140
+  accept_path: "image/jpeg,image/gif,image/png"
+  size: 50
+  image_path: ["image/jpeg", "image/gif", "image/png"]
+  resize_to_limit: [500, 500]
+  image_size: 5
+user_info:
+  size: 50

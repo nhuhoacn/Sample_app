@@ -13,6 +13,7 @@ vi:
       sign_up: "Đăng ký ngay"
       welcome: "Chào mừng đến với Sample App"
       sample_app: "ứng dụng mẫu."
+      micropost_feed: "Các bài đăng"
     about:
       rails_href: "Hướng dẫn Ruby on Rails"
       about_title: "Về chúng tôi"
@@ -44,6 +45,7 @@ vi:
       create: "Tạo tài khoản"
     show:
       user_not_found: "Không tìm thấy tài khoản, hãy đăng ký tài khoản!"
+      title_micropost: "Microposts"
     create:
       users_success: "Chào mừng tới Sample App!"
       users_unsuccess: "Đăng ký không thành công"
@@ -144,7 +146,7 @@ vi:
       empty: "Mật khẩu không được để trống"
       reset_pass: "Mật khẩu đã được đặt lại."
       not_reset_pass: "Không thể đặt lại mật khẩu"
-      exprired: ""
+      exprired: "Đã hết thời gian đặt lại mật khẩu"
     edit:
       not_found: "Không tìm thấy tài khoản"
       edit_pass_title: "Đặt lại mật khẩu"
@@ -157,3 +159,33 @@ vi:
       new_pass_title: "Quên mật khẩu"
       email: "email"
       submit: "Tạo mật khẩu mới"
+  microposts:
+    create:
+      not_log_in: "Hãy đăng nhập"
+      save_succes: "Bài viết đã được tạo"
+    destroy:
+      micropost_deleted: "Bài viết đã bị xóa"
+      not_micropost_deleted: "Không thể xóa bài viết"
+    micropost:
+      posted: "Bài viết được đăng"
+      ago: "trước."
+      delete: "Xóa"
+      you_sure: "Bạn chắc chứ?"
+    find_micropost:
+      find_micropost_fail: "Không thể tìm thấy micropost"
+  shared:
+    micropost_form:
+      new_micropost: "Hãy viết bài đăng mới..."
+      post: "Đăng"
+      image_oversize: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
+    user_info:
+      view_my_profile: "Xem bài đăng của tôi"
+      micropost: "bài đăng"
+activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "Phải là định dạng hình ảnh hợp lệ"
+              too_big: "Kích thước hình ảnh quá lớn"

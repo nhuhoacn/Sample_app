@@ -10,6 +10,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @pagy, @microposts = pagy @user.microposts.newest, page: params[:page],
+      items: Settings.user.pagy_page
     return if @user
 
     flash[:danger] = t ".user_not_found"

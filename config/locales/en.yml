@@ -10,6 +10,7 @@ en:
       sign_up: "Sign up now!"
       welcome: "Welcome to Sample App"
       sample_app: "sample application."
+      micropost_feed: "Micropost Feed"
     about:
       rails_href: "Ruby on Rails Tutorial"
       about_title: "About"
@@ -41,6 +42,7 @@ en:
         create: "Create my account"
     show:
       user_not_found: "Account not found, please register!"
+      title_micropost: "Các bài viết"
     create:
       users_success: "Welcome to the Sample App!"
       users_unsuccess: "Registration failed"
@@ -141,7 +143,7 @@ en:
       empty: "can't be empty"
       reset_pass: "Password has been reset."
       not_reset_pass: "Can't reset password."
-      exprired : "Đã hết thời gian đặt lại mật khẩu"
+      exprired : "Password reset timeout"
     edit:
       not_found: "Account not found"
       edit_pass_title: "Reset password"
@@ -154,3 +156,33 @@ en:
       new_pass_title: "Forgot password"
       email: "email"
       submit: "Submit"
+  microposts:
+    create:
+      not_log_in: "logged_in_user"
+      save_success: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      not_micropost_deleted: "Microposts cannot be deleted"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+    find_micropost:
+      find_micropost_fail: "Cannot find micropost"
+  shared:
+    micropost_form:
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      image_oversize: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
+activerecord:
+  errors:
+    models:
+      micropost:
+        attributes:
+          image:
+            wrong_format: "Must be a valid image format"
+            too_big: "Image size is too big"

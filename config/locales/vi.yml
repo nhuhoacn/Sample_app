@@ -1,7 +1,4 @@
 vi:
-  controllers:
-    users_success: "Chào mừng tới Sample App!"
-    users_unsuccess: "Đăng ký không thành công"
   helper:
     base_title: "Ứng dụng hướng dẫn Ruby On Rails"
   static_pages:
@@ -14,6 +11,7 @@ vi:
       welcome: "Chào mừng đến với Sample App"
       sample_app: "ứng dụng mẫu."
       micropost_feed: "Các bài đăng"
+      following: "Đang theo dõi"
     about:
       rails_href: "Hướng dẫn Ruby on Rails"
       about_title: "Về chúng tôi"
@@ -75,6 +73,17 @@ vi:
     user:
       delete: "xóa"
       comfirm: "Bạn chắc chắn muốn xóa ?"
+    follow:
+      follow_submit: "Theo dõi"
+    unfollow:
+      unfollow_submit: "Bỏ theo dõi"
+    show_follow:
+      view_my_profile: "Xem trang cá nhân của tôi"
+      microposts: "Các bài đăng:"
+    following:
+      title_show_following: "Đang theo dõi"
+    follower:
+      title_show_followers: "Đang được theo dõi"
   layouts:
     header:
       home_title: "Trang chủ"
@@ -181,11 +190,22 @@ vi:
     user_info:
       view_my_profile: "Xem bài đăng của tôi"
       micropost: "bài đăng"
-activerecord:
-    errors:
-      models:
-        micropost:
-          attributes:
-            image:
-              wrong_format: "Phải là định dạng hình ảnh hợp lệ"
-              too_big: "Kích thước hình ảnh quá lớn"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
+    show_follow:
+      title_show_followers: "Đang được theo dõi"
+      title_show_following: "Đang theo dõi"
+  relationships:
+    follow_fail: "Theo dõi thất bại"
+    unfollow_fail: "Hủy theo dõi thất bại"
+  activerecord:
+      errors:
+        models:
+          micropost:
+            attributes:
+              image:
+                wrong_format: "Phải là định dạng hình ảnh hợp lệ"
+                too_big: "Kích thước hình ảnh quá lớn"
+  js:
+    maximum_size: "Kích cỡ tối đa của ảnh là 5MB. Hãy chọn ảnh có kích thước nhỏ hơn."

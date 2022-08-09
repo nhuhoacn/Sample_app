@@ -11,6 +11,7 @@ en:
       welcome: "Welcome to Sample App"
       sample_app: "sample application."
       micropost_feed: "Micropost Feed"
+      following: "following"
     about:
       rails_href: "Ruby on Rails Tutorial"
       about_title: "About"
@@ -46,6 +47,7 @@ en:
     create:
       users_success: "Welcome to the Sample App!"
       users_unsuccess: "Registration failed"
+      invalid_email_password_combination:  "Invalid email/password combination"
       mail_notice: "Please check your email to complete the registration"
     edit:
       edit_title: "Edit user"
@@ -71,6 +73,17 @@ en:
     user:
       delete: "delete"
       comfirm : "You sure?"
+    follow:
+      follow_submit: "Follow"
+    unfollow:
+      unollow_submit: "Unfollow"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts: "Microposts:"
+    following:
+      title_show_following: "Following"
+    follower:
+      title_show_followers: "Followers"
   layouts:
     header:
       home_title: "Home"
@@ -178,11 +191,22 @@ en:
     user_info:
       view_my_profile: "View my profile"
       micropost: "micropost"
-activerecord:
-  errors:
-    models:
-      micropost:
-        attributes:
-          image:
-            wrong_format: "Must be a valid image format"
-            too_big: "Image size is too big"
+    stats:
+      following: "following"
+      followers: "followers"
+    show_follow:
+      title_show_followers: "Followers"
+      title_show_following: "Following"
+  relationships:
+    follow_fail: "Follow fail"
+    unfollow_fail: "Unfollow fail"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "Must be a valid image format"
+              too_big: "Image size is too big"
+  js:
+    maximum_size: "Maximum file size is 5MB. Please choose a smaller file."
